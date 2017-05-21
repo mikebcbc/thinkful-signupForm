@@ -1,5 +1,5 @@
 html {
-	background-color: skyblue;
+	background-color: #2f93e3;
 }
 
 body * {
@@ -50,10 +50,44 @@ input {
 	width: 320px;
 	margin-bottom: 20px;
 	padding: 15px;
+	border-radius: 3px;
 	border: 2px solid #e7e7e7;
 	background-color: #fcfcfc;
 }
 
 input::placeholder {
 	color: #a9a9a9;
+}
+
+.submit {
+	width: 320px;
+	padding: 15px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	font-size: 20px;
+	background-color: #55c475;
+	margin-bottom: 10px;
+}
+
+.forgot-password {
+	display: block;
+	color: #999;
+	text-align: center;
+}
+
+.login-wrapper {
+	margin-top: 15px;
+	text-align: center;
+}
+
+.login-text {
+	color: white;
+	font-weight: bold;
+}
+
+@media (max-width: 769px) {
+	.outer-wrapper {
+		padding: 50px 0;
+	}
 }
