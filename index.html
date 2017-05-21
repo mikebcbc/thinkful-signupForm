@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<main class="outer-wrapper">
+	<main role="main" class="outer-wrapper">
 		<img src="https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.5.2_challenge_signup_form/logo.png" alt="AnalogSea Logo" class="logo" />
 		<div class="signup">
 			<h1 class="heading">Sign up</h1>
@@ -24,8 +24,10 @@
 		</div>
 		<div class="login-wrapper">
 			<span class="login-text">Already have an account?</span>
-			<a href="/login/" class="login-text">Log in</a>
+			<a href="/login" class="login-text">Log in</a>
 		</div>
 	</main>
+	<!-- Fix transition on page load (chrome bug) -->
+	<script> </script>
 </body>
 </html>
