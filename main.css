@@ -1,0 +1,40 @@
+html {
+	background-color: skyblue;
+}
+
+body * {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+.outer-wrapper {
+	max-width: 800px;
+	padding: 50px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 35px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.signup {
+	background-color: white;
+	border-radius: 5px;
+	padding: 40px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.heading {
+	font-weight: normal;
+	text-align: center;
+	color: #737373;
+}
