@@ -36,5 +36,24 @@ h1 {
 .heading {
 	font-weight: normal;
 	text-align: center;
-	color: #737373;
+	color: #565656;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+
+input {
+	display: block;
+	width: 320px;
+	margin-bottom: 20px;
+	padding: 15px;
+	border: 2px solid #e7e7e7;
+	background-color: #fcfcfc;
+}
+
+input::placeholder {
+	color: #a9a9a9;
 }
